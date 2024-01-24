@@ -8,6 +8,7 @@
   - In my preferred IDE (VScode), `<code>some_code_here</code>` syntax does not display properly in JSdoc comments, so I would recommend using backticks ( \` ) instead.
   - Use single quotes instead of double in the spec file
   - Karma runner is [deprecated](https://github.com/karma-runner/karma/commit/450fdfdac5b999967daec1020f1ac69cf9b854ab) as of April 2023. Considering using an alternative.
+  - Ensure that dependencies have no security issues; tools like GitHub's [Dependabot](https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates) make this very simple.
   - Consider using a code coverage tool, such as [Istanbul](https://github.com/istanbuljs/nyc)
 * `Cartesian3.js`
   - Line [37](https://github.com/cdsoftw/cesium-sdet-project/blob/307b868967139df7de99add83be6fe4ad9e87f29/dev-in-test/source/Cartesian3.js#L37), [40](https://github.com/cdsoftw/cesium-sdet-project/blob/307b868967139df7de99add83be6fe4ad9e87f29/dev-in-test/source/Cartesian3.js#L40)
