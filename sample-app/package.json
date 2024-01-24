@@ -24,10 +24,14 @@
     "start-build": "serve -s build",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts --openssl-legacy-provider test",
-    "eject": "react-scripts --openssl-legacy-provider eject"
+    "eject": "react-scripts --openssl-legacy-provider eject",
+    "cy:headed": "cypress run --headed"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "plugin:cypress/recommended"
+    ]
   },
   "browserslist": {
     "production": [
@@ -42,7 +46,9 @@
     ]
   },
   "devDependencies": {
-    "serve": "^11.3.2",
-    "prettier": "^2.0.2"
+    "cypress": "^13.6.3",
+    "eslint-plugin-cypress": "^2.15.1",
+    "prettier": "^2.0.2",
+    "serve": "^11.3.2"
   }
 }

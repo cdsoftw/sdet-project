@@ -13,4 +13,15 @@ If time allowed or this was a full project, I would also set up a Cypress Cloud 
 ### Test Coverage and Goals
 Ideally, each UI tab (Posts, Users, Notifications) would be covered by its own robust test suite, which could either be broken up into different categorized specs for readability/maintainability, or kept in one file for easier verification of a single area of functionality. Each test within a spec file should verify a single UI action, or at most a few related actions, similar to a unit test.
 
-For the purposes of this project, I intend to focus on the Posts tab, and to cover as many different UI operations as possible while attempting to stay within the total time limit.
+For the purposes of this project, I intend to focus on the Posts tab. While attempting to stay within the total time limit, I will cover as many different UI operations as possible; namely:
+* Create post
+  - Saved with expected data and accurate timestamp
+* Author, title, and content are required for new post
+* View post
+* Edit post title + content
+  - Appears to be broken for Content - test should fail
+* React to post
+  - Reactions saved across homepage + post view
+
+## Running E2E tests
+After installing Cypress along with all other dependencies, as well as launching the app locally using `npm start`, simply run `npx cypress run` to execute all tests in a headless Chrome browser, or `npm run cy:headed` for a headed version.
