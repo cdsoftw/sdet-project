@@ -1,7 +1,7 @@
-import { loadSite } from 'support/siteHelper';
+import { loadSite } from '../support/siteHelper';
 
-describe('visit the site', () => {
-  it('loads the app correctly', () => {
+describe('visit the site', function () {
+  it('loads the app correctly', function () {
     loadSite();
   });
 });

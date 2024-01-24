@@ -16,7 +16,7 @@ Ideally, each UI tab (Posts, Users, Notifications) would be covered by its own r
 For the purposes of this project, I intend to focus on the Posts tab. While attempting to stay within the total time limit, I will cover as many different UI operations as possible; namely:
 * Create post
   - Saved with expected data and accurate timestamp
-* Author, title, and content are required for new post
+  - Author, title, and content are required
 * View post
 * Edit post title + content
   - Appears to be broken for Content - test should fail
