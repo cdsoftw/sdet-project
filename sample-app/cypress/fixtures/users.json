@@ -1,4 +1,5 @@
-[
+{
+  "users": [
     {
       "name": "Mr. Zola Gutkowski"
     },
@@ -8,4 +9,5 @@
     {
       "name": "Augusta Hahn"
     }
-]
+  ]
+}
