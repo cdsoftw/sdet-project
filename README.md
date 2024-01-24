@@ -2,6 +2,8 @@
 ## Cole Dapprich
 ##### [cdsoftworks@gmail.com](mailto:cdsoftworks@gmail.com)
 
+---
+
 This repository contains my submission for the Cesium SDET project.
 
 ### [Part 1](https://github.com/cdsoftw/cesium-sdet-project/tree/master/dev-in-test)
