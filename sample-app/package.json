@@ -49,6 +49,7 @@
     "cypress": "^13.6.3",
     "eslint-plugin-cypress": "^2.15.1",
     "prettier": "^2.0.2",
+    "random-words": "^2.0.0",
     "serve": "^11.3.2"
   }
 }

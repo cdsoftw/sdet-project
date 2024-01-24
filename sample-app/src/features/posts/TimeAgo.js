@@ -10,7 +10,7 @@ export const TimeAgo = ({ timestamp }) => {
   }
 
   return (
-    <span title={timestamp}>
+    <span title={timestamp} data-testid="postTimestamp">
       &nbsp; <i>{timeAgo}</i>
     </span>
   )
