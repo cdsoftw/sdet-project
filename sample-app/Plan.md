@@ -1,4 +1,3 @@
-# Part 2
 ## End-to-end Test Plan
 
 ### Tools and Techniques
