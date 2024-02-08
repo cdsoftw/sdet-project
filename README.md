@@ -4,7 +4,7 @@
 
 ---
 
-This repository contains a sample SDET project that showcases what I can accomplish in a greenfield scenario, within only a few hours' time limit.
+This repository contains a sample SDET project that showcases what I can accomplish in a greenfield scenario within a few hours' time limit.
 
 ### [End-to-end Test Plan](https://github.com/cdsoftw/sdet-project/tree/master/sample-app/Plan.md)
 
