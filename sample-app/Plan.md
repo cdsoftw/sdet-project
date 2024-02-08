@@ -12,7 +12,7 @@ If time allowed or this was a full project, I would also set up a Cypress Cloud 
 ### Test Coverage and Goals
 Ideally, each UI tab (Posts, Users, Notifications) would be covered by its own robust test suite, which could either be broken up into different categorized specs for readability/maintainability, or kept in one file for easier verification of a single area of functionality. Each test within a spec file should verify a single UI action, or at most a few related actions, similar to a unit test.
 
-For the purposes of this project, I intend to focus on the Posts tab. While attempting to stay within the total time limit, I will cover as many different UI operations as possible; namely:
+For the purposes of this project, I intend to focus on the Posts tab. While attempting to stay within the self-imposed time limit of 4-8 hours, I will cover as many different UI operations as possible; namely:
 * Create post
   - Saved with expected data and accurate timestamp
   - Author, title, and content are required
