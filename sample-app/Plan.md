@@ -27,4 +27,4 @@ For the purposes of this project, I intend to focus on the Posts tab. While atte
 ## Running E2E tests
 After installing Cypress along with all other dependencies, as well as launching the app locally using `npm start`, simply run `npm run cy:chrome` to execute all tests in a headless Chrome browser, or `npm run cy:headed` for a headed version. There is also a Cypress-provided `npx cypress run` command that uses a bundled Electron browser by default, along with options for other browsers.
 
-For running tests against a 'production' build, simply build the app as specified in the project instructions and update [`baseUrl` in the cypress config](https://github.com/cdsoftw/cesium-sdet-project/blob/ea58167df751e40902bd7667ebf8c40e6d06618c/sample-app/cypress.config.js#L8) to `'http://[YOUR_LOCAL_IP]:5000'`.
+For running tests against a 'production' build, simply build the app as specified in the project instructions and update [`baseUrl` in the cypress config](https://github.com/cdsoftw/sdet-project/blob/ea58167df751e40902bd7667ebf8c40e6d06618c/sample-app/cypress.config.js#L8) to `'http://[YOUR_LOCAL_IP]:5000'`.
