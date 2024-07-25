@@ -1,6 +1,5 @@
 # SDET Project
 ## Cole Dapprich
-##### [cdsoftworks@gmail.com](mailto:cdsoftworks@gmail.com)
 
 ---
 
