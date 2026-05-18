@@ -1,5 +1,4 @@
 # SDET Project
-## Cole Dapprich
 
 This repository contains a sample SDET project that showcases what I can accomplish in a greenfield scenario within a few hours' time limit.
 
